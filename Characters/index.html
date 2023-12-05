@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Personagens | Renan Marciano</title>
+    <link rel="stylesheet" href="/Characters/style.css">
+    <link rel="shortcut icon" href="/Characters/assets/millennium-falcon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="/Characters/index.html">
+            <div class="logo">
+                <img src="/Characters/assets/star-wars-logo.png" alt="star-wars" class="logo-img">
+                <span class="logotext">Characters</span>
+            </div>
+        </a>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/renan_crvlo/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/renan-marciano-tech?tab=repositories" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/renan-marciano-de-carvalho-97566629b/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <h2>Conheca todos os personagens de Star Wars em um so lugar</h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hidenModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="anterior-botao" disabled>Anterior</button>
+            <button id="prox-botao" disabled>Próxima</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyrigth">Desenvolvido por &copy; Renan Marciano de Carvalho</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b9ebdd824d.js" crossorigin="anonymous"></script>
+    <script src="/Characters/script.js"></script>
+
+</body>
+</html>
